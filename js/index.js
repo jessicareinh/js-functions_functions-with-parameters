@@ -7,12 +7,13 @@ console.log("Exercise 1:");
 */
 
 // Uncomment the next line of code and figure out why it does not work:
-// logText;
+logText();
 
 function logText() {
   console.log("This text does not appear. Why?");
-}
+};
 
+logText();
 console.log("-------------");
 console.log("Exercise 2:");
 /*
@@ -31,13 +32,17 @@ function greetMary() {
   console.log("Welcome Mary, good to see you again!");
 }
 
-greetAlice();
-greetBob();
-greetMary();
+function greet(name) {
+  console.log("Welcome ", name, " good to see you again!")
+};
+
+greet(Alice);
+greet(Bob);
+greet(Mary);
 
 // --v-- write your code here --v--
 
-function greet() {}
+
 
 // --^-- write your code here --^--
 
